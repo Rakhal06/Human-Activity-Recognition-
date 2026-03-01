@@ -31,7 +31,18 @@ Multiple machine learning models are trained and evaluated to recognize physical
 Best model: <PUT YOUR BEST MODEL HERE>  
 Accuracy: <PUT ACCURACY HERE>
 
+## Dataset
+
+The MHEALTH dataset is not included in this repository due to GitHub file size limitations.
+
+You can download it from the official source:
+https://archive.ics.uci.edu/ml/datasets/MHEALTH+Dataset
+
+After downloading, place the file inside:
+Data/
+
 ## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
+
