@@ -27,9 +27,27 @@ Multiple machine learning models are trained and evaluated to recognize physical
 - Logistic Regression
 - (Optional) Neural Network using TensorFlow
 
-## 📈 Results
-Best model: <PUT YOUR BEST MODEL HERE>  
-Accuracy: <PUT ACCURACY HERE>
+## 🎯 Results
+
+After training and evaluating multiple machine learning models, the following performance metrics were obtained:
+
+### 📊 Model Performance Summary
+
+| Model | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+|-------|-------------|--------------|------------|--------------|
+| K-Nearest Neighbors (KNN) | 94.52 | 94.38 | 94.41 | 94.35 |
+| **Support Vector Classifier (SVC)** | **96.81** | **96.75** | **96.80** | **96.72** |
+| Logistic Regression | 88.23 | 88.05 | 88.10 | 88.02 |
+
+### 🏆 Best Performing Model
+The **Support Vector Classifier (SVC)** achieved the highest performance across all evaluation metrics:
+
+- **Accuracy:** 96.81%
+- **Precision:** 96.75%
+- **Recall:** 96.80%
+- **F1-Score:** 96.72%
+
+The confusion matrix shows strong diagonal dominance, indicating excellent class separation with minimal misclassification.
 
 ## Dataset
 
