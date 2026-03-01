@@ -1,0 +1,26 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Models (if you save large trained models later)
+models/
+
+Data/
